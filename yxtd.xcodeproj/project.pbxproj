@@ -8,13 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		25393C9C1F68DA5E006905CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25393C9B1F68DA5E006905CB /* main.m */; };
-		25393C9F1F68DA5E006905CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25393C9E1F68DA5E006905CB /* AppDelegate.m */; };
-		25393CA21F68DA5E006905CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25393CA11F68DA5E006905CB /* ViewController.m */; };
 		25393CA51F68DA5E006905CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25393CA31F68DA5E006905CB /* Main.storyboard */; };
 		25393CA71F68DA5E006905CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25393CA61F68DA5E006905CB /* Assets.xcassets */; };
 		25393CAA1F68DA5E006905CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25393CA81F68DA5E006905CB /* LaunchScreen.storyboard */; };
 		25393CB51F68DA5F006905CB /* yxtdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25393CB41F68DA5F006905CB /* yxtdTests.m */; };
 		25393CC01F68DA5F006905CB /* yxtdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25393CBF1F68DA5F006905CB /* yxtdUITests.m */; };
+		257D120E1F68E18E003DC1E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D120B1F68E18E003DC1E4 /* AppDelegate.m */; };
+		257D120F1F68E18E003DC1E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D120D1F68E18E003DC1E4 /* ViewController.m */; };
+		257D12481F690E16003DC1E4 /* FindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D12471F690E16003DC1E4 /* FindViewController.m */; };
+		257D12561F690F73003DC1E4 /* RunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D12551F690F73003DC1E4 /* RunViewController.m */; };
+		257D12591F690F9F003DC1E4 /* RankingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D12581F690F9F003DC1E4 /* RankingViewController.m */; };
+		257D125F1F69172B003DC1E4 /* MyTabarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D125C1F69172B003DC1E4 /* MyTabarController.m */; };
+		257D12601F69172B003DC1E4 /* MyUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D125E1F69172B003DC1E4 /* MyUINavigationController.m */; };
+		257D12641F6918CE003DC1E4 /* UIImage+TZRenderImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D12631F6918CE003DC1E4 /* UIImage+TZRenderImage.m */; };
+		257D126A1F692264003DC1E4 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 257D12691F692264003DC1E4 /* MapViewController.m */; };
+		25FD1ADA1F6A163A00D7957E /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FD1AD91F6A163900D7957E /* UIColor+Hex.m */; };
+		25FD1ADD1F6A24A300D7957E /* CDMobileRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 25FD1ADC1F6A24A300D7957E /* CDMobileRegisterVC.m */; };
+		30AE89C1A250834E9DB980BB /* libPods-yxtd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D34E885CCE21FBB8C41A8408 /* libPods-yxtd.a */; };
+		8F76CE2B1F69858C00D73EC7 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F76CE291F69858C00D73EC7 /* MineViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +48,6 @@
 /* Begin PBXFileReference section */
 		25393C971F68DA5E006905CB /* yxtd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yxtd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25393C9B1F68DA5E006905CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		25393C9D1F68DA5E006905CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		25393C9E1F68DA5E006905CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		25393CA01F68DA5E006905CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		25393CA11F68DA5E006905CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		25393CA41F68DA5E006905CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		25393CA61F68DA5E006905CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25393CA91F68DA5E006905CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,34 @@
 		25393CBB1F68DA5F006905CB /* yxtdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yxtdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25393CBF1F68DA5F006905CB /* yxtdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yxtdUITests.m; sourceTree = "<group>"; };
 		25393CC11F68DA5F006905CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257D120A1F68E18E003DC1E4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		257D120B1F68E18E003DC1E4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		257D120C1F68E18E003DC1E4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		257D120D1F68E18E003DC1E4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		257D12461F690E16003DC1E4 /* FindViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindViewController.h; sourceTree = "<group>"; };
+		257D12471F690E16003DC1E4 /* FindViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindViewController.m; sourceTree = "<group>"; };
+		257D12541F690F73003DC1E4 /* RunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunViewController.h; sourceTree = "<group>"; };
+		257D12551F690F73003DC1E4 /* RunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunViewController.m; sourceTree = "<group>"; };
+		257D12571F690F9F003DC1E4 /* RankingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankingViewController.h; sourceTree = "<group>"; };
+		257D12581F690F9F003DC1E4 /* RankingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankingViewController.m; sourceTree = "<group>"; };
+		257D125B1F69172B003DC1E4 /* MyTabarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabarController.h; sourceTree = "<group>"; };
+		257D125C1F69172B003DC1E4 /* MyTabarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabarController.m; sourceTree = "<group>"; };
+		257D125D1F69172B003DC1E4 /* MyUINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUINavigationController.h; sourceTree = "<group>"; };
+		257D125E1F69172B003DC1E4 /* MyUINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUINavigationController.m; sourceTree = "<group>"; };
+		257D12621F6918CE003DC1E4 /* UIImage+TZRenderImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TZRenderImage.h"; sourceTree = "<group>"; };
+		257D12631F6918CE003DC1E4 /* UIImage+TZRenderImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TZRenderImage.m"; sourceTree = "<group>"; };
+		257D12651F69191E003DC1E4 /* yxtd.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = yxtd.pch; sourceTree = "<group>"; };
+		257D12681F692264003DC1E4 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		257D12691F692264003DC1E4 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		25FD1AD81F6A163900D7957E /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		25FD1AD91F6A163900D7957E /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		25FD1ADB1F6A24A300D7957E /* CDMobileRegisterVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMobileRegisterVC.h; sourceTree = "<group>"; };
+		25FD1ADC1F6A24A300D7957E /* CDMobileRegisterVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMobileRegisterVC.m; sourceTree = "<group>"; };
+		4AA24C9EA59A86043C9C2F67 /* Pods-yxtd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yxtd.release.xcconfig"; path = "Pods/Target Support Files/Pods-yxtd/Pods-yxtd.release.xcconfig"; sourceTree = "<group>"; };
+		8F76CE281F69858C00D73EC7 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		8F76CE291F69858C00D73EC7 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		D34E885CCE21FBB8C41A8408 /* libPods-yxtd.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yxtd.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7DAC08414912D65117CE88B /* Pods-yxtd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yxtd.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yxtd/Pods-yxtd.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30AE89C1A250834E9DB980BB /* libPods-yxtd.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,8 @@
 				25393CB31F68DA5F006905CB /* yxtdTests */,
 				25393CBE1F68DA5F006905CB /* yxtdUITests */,
 				25393C981F68DA5E006905CB /* Products */,
+				585022EADC44407FCF384AED /* Pods */,
+				4DD379518A7EF30081CBBE4A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +139,12 @@
 		25393C991F68DA5E006905CB /* yxtd */ = {
 			isa = PBXGroup;
 			children = (
-				25393C9D1F68DA5E006905CB /* AppDelegate.h */,
-				25393C9E1F68DA5E006905CB /* AppDelegate.m */,
-				25393CA01F68DA5E006905CB /* ViewController.h */,
-				25393CA11F68DA5E006905CB /* ViewController.m */,
+				257D124C1F690EFF003DC1E4 /* Running */,
+				257D12501F690F53003DC1E4 /* Ranking */,
+				257D12011F68E179003DC1E4 /* Find */,
+				257D12051F68E183003DC1E4 /* Mine */,
+				257D12091F68E18E003DC1E4 /* Other */,
+				257D12101F68E196003DC1E4 /* Lib */,
 				25393CA31F68DA5E006905CB /* Main.storyboard */,
 				25393CA61F68DA5E006905CB /* Assets.xcassets */,
 				25393CA81F68DA5E006905CB /* LaunchScreen.storyboard */,
@@ -140,6 +180,218 @@
 			path = yxtdUITests;
 			sourceTree = "<group>";
 		};
+		257D12011F68E179003DC1E4 /* Find */ = {
+			isa = PBXGroup;
+			children = (
+				257D12021F68E179003DC1E4 /* Controller */,
+				257D12031F68E179003DC1E4 /* Model */,
+				257D12041F68E179003DC1E4 /* View */,
+			);
+			path = Find;
+			sourceTree = "<group>";
+		};
+		257D12021F68E179003DC1E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				257D12461F690E16003DC1E4 /* FindViewController.h */,
+				257D12471F690E16003DC1E4 /* FindViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		257D12031F68E179003DC1E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		257D12041F68E179003DC1E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		257D12051F68E183003DC1E4 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				257D12061F68E183003DC1E4 /* Controller */,
+				257D12071F68E183003DC1E4 /* Model */,
+				257D12081F68E183003DC1E4 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		257D12061F68E183003DC1E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F76CE271F69858C00D73EC7 /* Login */,
+				8F76CE2A1F69858C00D73EC7 /* Register */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		257D12071F68E183003DC1E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		257D12081F68E183003DC1E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		257D12091F68E18E003DC1E4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				257D125A1F691713003DC1E4 /* MyTabbar */,
+				257D120A1F68E18E003DC1E4 /* AppDelegate.h */,
+				257D120B1F68E18E003DC1E4 /* AppDelegate.m */,
+				257D120C1F68E18E003DC1E4 /* ViewController.h */,
+				257D120D1F68E18E003DC1E4 /* ViewController.m */,
+				257D12651F69191E003DC1E4 /* yxtd.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		257D12101F68E196003DC1E4 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				257D12611F691898003DC1E4 /* Category */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		257D124C1F690EFF003DC1E4 /* Running */ = {
+			isa = PBXGroup;
+			children = (
+				257D124D1F690EFF003DC1E4 /* Controller */,
+				257D124E1F690EFF003DC1E4 /* Model */,
+				257D124F1F690EFF003DC1E4 /* View */,
+			);
+			path = Running;
+			sourceTree = "<group>";
+		};
+		257D124D1F690EFF003DC1E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				257D12541F690F73003DC1E4 /* RunViewController.h */,
+				257D12551F690F73003DC1E4 /* RunViewController.m */,
+				257D12681F692264003DC1E4 /* MapViewController.h */,
+				257D12691F692264003DC1E4 /* MapViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		257D124E1F690EFF003DC1E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		257D124F1F690EFF003DC1E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		257D12501F690F53003DC1E4 /* Ranking */ = {
+			isa = PBXGroup;
+			children = (
+				257D12511F690F53003DC1E4 /* Controller */,
+				257D12521F690F53003DC1E4 /* Model */,
+				257D12531F690F53003DC1E4 /* View */,
+			);
+			path = Ranking;
+			sourceTree = "<group>";
+		};
+		257D12511F690F53003DC1E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				257D12571F690F9F003DC1E4 /* RankingViewController.h */,
+				257D12581F690F9F003DC1E4 /* RankingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		257D12521F690F53003DC1E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		257D12531F690F53003DC1E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		257D125A1F691713003DC1E4 /* MyTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				257D125B1F69172B003DC1E4 /* MyTabarController.h */,
+				257D125C1F69172B003DC1E4 /* MyTabarController.m */,
+				257D125D1F69172B003DC1E4 /* MyUINavigationController.h */,
+				257D125E1F69172B003DC1E4 /* MyUINavigationController.m */,
+			);
+			path = MyTabbar;
+			sourceTree = "<group>";
+		};
+		257D12611F691898003DC1E4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				257D12621F6918CE003DC1E4 /* UIImage+TZRenderImage.h */,
+				257D12631F6918CE003DC1E4 /* UIImage+TZRenderImage.m */,
+				25FD1AD81F6A163900D7957E /* UIColor+Hex.h */,
+				25FD1AD91F6A163900D7957E /* UIColor+Hex.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		4DD379518A7EF30081CBBE4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D34E885CCE21FBB8C41A8408 /* libPods-yxtd.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		585022EADC44407FCF384AED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7DAC08414912D65117CE88B /* Pods-yxtd.debug.xcconfig */,
+				4AA24C9EA59A86043C9C2F67 /* Pods-yxtd.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F76CE271F69858C00D73EC7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8F76CE281F69858C00D73EC7 /* MineViewController.h */,
+				8F76CE291F69858C00D73EC7 /* MineViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8F76CE2A1F69858C00D73EC7 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				25FD1ADB1F6A24A300D7957E /* CDMobileRegisterVC.h */,
+				25FD1ADC1F6A24A300D7957E /* CDMobileRegisterVC.m */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +399,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25393CC41F68DA5F006905CB /* Build configuration list for PBXNativeTarget "yxtd" */;
 			buildPhases = (
+				CE4762CB188A4467CF3B6E70 /* [CP] Check Pods Manifest.lock */,
 				25393C931F68DA5E006905CB /* Sources */,
 				25393C941F68DA5E006905CB /* Frameworks */,
 				25393C951F68DA5E006905CB /* Resources */,
+				F274553496B2268E84962942 /* [CP] Embed Pods Frameworks */,
+				D74EE30EAC76AA92B6807D48 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +462,7 @@
 				TargetAttributes = {
 					25393C961F68DA5E006905CB = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 83K7JYL422;
 						ProvisioningStyle = Automatic;
 					};
 					25393CAF1F68DA5F006905CB = {
@@ -268,14 +524,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CE4762CB188A4467CF3B6E70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-yxtd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D74EE30EAC76AA92B6807D48 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-yxtd/Pods-yxtd-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+				"${PODS_ROOT}/AMapNavi/AMapNaviKit.framework/AMapNavi.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yxtd/Pods-yxtd-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F274553496B2268E84962942 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yxtd/Pods-yxtd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		25393C931F68DA5E006905CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25393CA21F68DA5E006905CB /* ViewController.m in Sources */,
-				25393C9F1F68DA5E006905CB /* AppDelegate.m in Sources */,
+				257D120E1F68E18E003DC1E4 /* AppDelegate.m in Sources */,
+				25FD1ADA1F6A163A00D7957E /* UIColor+Hex.m in Sources */,
 				25393C9C1F68DA5E006905CB /* main.m in Sources */,
+				257D125F1F69172B003DC1E4 /* MyTabarController.m in Sources */,
+				257D12591F690F9F003DC1E4 /* RankingViewController.m in Sources */,
+				257D12601F69172B003DC1E4 /* MyUINavigationController.m in Sources */,
+				8F76CE2B1F69858C00D73EC7 /* MineViewController.m in Sources */,
+				257D12641F6918CE003DC1E4 /* UIImage+TZRenderImage.m in Sources */,
+				257D120F1F68E18E003DC1E4 /* ViewController.m in Sources */,
+				25FD1ADD1F6A24A300D7957E /* CDMobileRegisterVC.m in Sources */,
+				257D12481F690E16003DC1E4 /* FindViewController.m in Sources */,
+				257D12561F690F73003DC1E4 /* RunViewController.m in Sources */,
+				257D126A1F692264003DC1E4 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,9 +745,13 @@
 		};
 		25393CC51F68DA5F006905CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7DAC08414912D65117CE88B /* Pods-yxtd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 83K7JYL422;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/yxtd/Other/yxtd.pch";
 				INFOPLIST_FILE = yxtd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yixitongda.yxtd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,9 +760,13 @@
 		};
 		25393CC61F68DA5F006905CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AA24C9EA59A86043C9C2F67 /* Pods-yxtd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 83K7JYL422;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/yxtd/Other/yxtd.pch";
 				INFOPLIST_FILE = yxtd/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = yixitongda.yxtd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,6 +838,7 @@
 				25393CC61F68DA5F006905CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25393CC71F68DA5F006905CB /* Build configuration list for PBXNativeTarget "yxtdTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +847,7 @@
 				25393CC91F68DA5F006905CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25393CCA1F68DA5F006905CB /* Build configuration list for PBXNativeTarget "yxtdUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +856,7 @@
 				25393CCC1F68DA5F006905CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
